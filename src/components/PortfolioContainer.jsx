@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-// import NavTabs from './NavTabs';
 import Header from './pages/Header';
 import Home from './pages/Home';
+import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
@@ -28,8 +28,10 @@ function PortfolioContainer() {
 
   return (
     <>
+    <div className='wrapper'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      </div>
     </>
   );
 }

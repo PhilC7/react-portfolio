@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Concert Weather Checker",
+        "image": "/images/concert-weather.png",
+        "description": "Check the weather for your upcoming event!",
+        "deployed": "https://philc7.github.io/is-it-dry/",
+        "repo": "https://github.com/PhilC7/is-it-dry"
+      }, 
+    {
+        "id": 2,
+        "name": "Code Quiz",
+        "image": "/images/code-quiz.png",
+        "description": "Test your coding knowledge!",
+        "deployed": "https://philc7.github.io/code-quiz/",
+        "repo": "https://github.com/PhilC7/code-quiz"
+      }, 
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "image": "/images/password-gen.png",
+        "description": "Generate your own secure password!",
+        "deployed": "https://philc7.github.io/password-generator/",
+        "repo": "https://github.com/PhilC7/password-generator/"
+      }, 
+    {
+        "id": 4,
+        "name": "Team Generator",
+        "image": "/images/team-generator.png",
+        "description": "Generate a page to display your team!",
+        "deployed": "https://github.com/PhilC7/team-profile-generator/",
+        "repo": "https://github.com/PhilC7/team-profile-generator/"
+      }, 
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "/images/weather-checker.png",
+        "description": "Your very own weather forecast!",
+        "deployed": "https://philc7.github.io/weather-dashboard/",
+        "repo": "https://github.com/PhilC7/weather-dashboard/"
+      }, 
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "/images/workday-scheduler.png",
+        "description": "Play ahead for the working day!",
+        "deployed": "https://philc7.github.io/work-day-scheduler/",
+        "repo": "https://github.com/PhilC7/work-day-scheduler/"
+      } 
+]
