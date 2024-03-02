@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
-import Header from './components/Header/Header.jsx';
-import Home from './components/Home/Home.jsx';
+import PortfolioContainer from "./components/PortfolioContainer";
+
 
 function App() {
 
-  return (
-    <>
-    <Header />
-    <Home />
-    </>
-  )
+  return <PortfolioContainer />
+
 }
 
 export default App
