@@ -10,24 +10,75 @@
   /* Open sans bold(700), regular(400), light(300) */
 }
 
-.navbar {
-  background-color: var(--main-grey);
+* {
+  scroll-behavior: smooth;
 }
 
-.navbar .navbar-brand {
+/* MAIN STYLING */
+#root {
+  min-height: 100vh;
+  background-color: var(--main-grey);
+  color: var(--main-cream);
+}
+
+/* NAVBAR STYLING */
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
   color: var(--main-accent);
   font-family: var(--title-font);
   font-weight: 900;
   font-size: 50px;
 }
+
 .navbar .navbar-nav .nav-link {
   color: var(--main-cream);
   margin-left: 1.5rem;
   font-family: var(--copy-font);
+  font-weight: 700;
   text-align: center;
 }
 
 .navbar .navbar-nav .nav-link:hover {
   color: var(--main-accent);
+}
+
+/* HERO SECTION */
+.hero-section h1 {
+  font-family: var(--copy-font);
+  font-size: 3rem;
+}
+
+.hero-section h1 span {
+  font-family: var(--title-font);
+  color: var(--main-accent);
+  font-weight: 900;
+}
+
+.hero-section p {
+  font-family: var(--copy-font);
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+.hero-section p span {
+  color: var(--main-accent);
   font-weight: 700;
+}
+
+.left-column button {
+  border: 2px solid var(--main-accent);
+  color: var(--main-accent);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 5px 25px;
+}
+.left-column button:hover {
+  background-color: var(--main-accent);
+  color: var(--main-cream);
+}
+
+.right-column img {
+  height: 500px;
+  width: auto;
 }
