@@ -1,0 +1,33 @@
+:root {
+  /* COLOURS */
+  --main-grey: #35353a;
+  --main-cream: #f0e7d8;
+  --main-accent: #f18805;
+
+  /* FONTS */
+  --title-font: "Playfair Display", serif;
+  --copy-font: "Open Sans", sans-serif;
+  /* Open sans bold(700), regular(400), light(300) */
+}
+
+.navbar {
+  background-color: var(--main-grey);
+}
+
+.navbar .navbar-brand {
+  color: var(--main-accent);
+  font-family: var(--title-font);
+  font-weight: 900;
+  font-size: 50px;
+}
+.navbar .navbar-nav .nav-link {
+  color: var(--main-cream);
+  margin-left: 1.5rem;
+  font-family: var(--copy-font);
+  text-align: center;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--main-accent);
+  font-weight: 700;
+}
