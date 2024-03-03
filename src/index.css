@@ -97,17 +97,30 @@
   width: auto;
 }
 
+/* ABOUT */
+.skills i {
+  font-size: 3rem;
+  transition: all 0.4s ease-in-out;
+}
+.skills i:hover {
+  color: var(--main-accent);
+  transform: translateY(-5px);
+}
+
+.skills-title {
+  font-family: var(--title-font);
+  font-weight: 900;
+}
+
 /* WORK */
 .work-title {
   font-family: var(--title-font);
   font-weight: 900;
   color: var(--main-cream);
+  font-size: 2.5rem;
 }
 .project {
   border: none !important;
-}
-.gallery {
-  min-height: 100vh;
 }
 
 .project .card-img-overlay {
@@ -126,6 +139,7 @@
 .project .card-img-overlay h5 {
   font-family: var(--title-font);
   font-weight: 900;
+  font-size: 1.5rem;
 }
 
 .card img {
@@ -142,7 +156,7 @@
   font-size: 1rem;
   padding: 5px 20px;
   text-decoration: none;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
 }
 
 .card button:hover {
@@ -155,6 +169,7 @@
 footer h6 {
   font-size: 0.75rem;
   font-weight: 300;
+  font-family: var(--copy-font);
 }
 
 footer h6 span {
@@ -164,8 +179,9 @@ footer h6 span {
 
 footer i {
   color: var(--main-cream);
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 1rem;
+  transition: all 0.4s ease-in-out;
 }
 
 footer i:hover {
