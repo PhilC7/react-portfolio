@@ -200,6 +200,33 @@
   font-family: var(--copy-font);
 }
 
+.socials i {
+  color: var(--main-accent);
+  font-size: 4rem;
+  margin: 0 2rem;
+  transition: all 0.4s ease-in-out;
+}
+.socials i:hover {
+  color: var(--main-cream);
+}
+
+.icon-link {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--copy-font);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main-grey);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 /* FOOTER */
 footer h6 {
   font-size: 0.75rem;

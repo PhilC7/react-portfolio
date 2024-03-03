@@ -26,7 +26,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container container-fluid contact-form">
+    <div className="contact-form container container-fluid contact-form">
       {submitted ? (
         <div className="alert alert-success" role="alert">
           Your message has been sent successfully!
