@@ -15,6 +15,14 @@ function Projects(props) {
                     <a href={props.repo} target='blank'><button type="button" className="btn project-btn mt-2">GitHub Page</button></a>
                 </div>
             </div>
+            <div className="mobile-card-text d-sm-block d-md-block d-lg-none rounded-bottom-4">
+            <h5 className="card-title">{props.name}</h5>
+                <p className="card-text">{props.description} </p>
+                <div className="btn-container">
+                    <a href={props.deployed} target='blank'><button type="button" className="btn project-btn mt-2">Deployed Site</button></a>
+                    <a href={props.repo} target='blank'><button type="button" className="btn project-btn mt-2">GitHub Page</button></a>
+                </div>
+                </div>
         </div>  
     </div>  
     </>

@@ -11,7 +11,6 @@ function PortfolioContainer() {
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
-    console.log(page);
   };
 
   const renderPage = () => {
