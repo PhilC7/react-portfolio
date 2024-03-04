@@ -8,9 +8,9 @@ function Contact() {
     <div className="container-fluid container my-5">
             <h2 className="contact-title text-center">Contact</h2>
     </div>
-    <div className="container container-fluid d-flex flex-column justify-content-start">
+    <div className="container container-fluid">
       <div className="row">
-        <div className="col-12 col-lg-6 mx-auto my-auto">
+        <div className="col-12 col-lg-8 mx-auto my-auto">
           <Form />
         </div>
         <div className="row mt-5">

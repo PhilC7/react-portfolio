@@ -15,7 +15,7 @@ const ContactForm = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    emailjs.sendForm('service_6aek6pb', 'template_r4wwnkm', e.target, 'HRNtxseJe5LYO6Hy0')
+    emailjs.sendForm('service_6aek6pb', 'contact_form', e.target, 'HRNtxseJe5LYO6Hy0')
       .then((result) => {
         console.log(result.text);
         setSubmitted(true);
