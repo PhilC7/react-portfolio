@@ -20,6 +20,10 @@ const ContactForm = () => {
         console.log(result.text);
         setSubmitted(true);
         setFormData({ name: '', email: '', message: '' });
+        // Reset form to blank after submit
+        setTimeout(() => {
+          setSubmitted(false);
+        }, 2000);
       }, (error) => {
         console.error(error.text);
       });
