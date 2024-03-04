@@ -14,6 +14,9 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+html {
+  overflow-y: scroll;
+}
 
 .wrapper {
   display: flex;
@@ -30,12 +33,16 @@
 }
 
 /* NAVBAR STYLING */
-.navbar .navbar-brand,
-.navbar .navbar-brand:hover {
+.navbar .navbar-brand {
   color: var(--main-accent);
   font-family: var(--title-font);
   font-weight: 900;
   font-size: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar .navbar-brand:hover {
+  color: var(--main-cream);
 }
 
 .navbar-toggler {
@@ -51,6 +58,7 @@
   font-family: var(--copy-font);
   font-weight: 700;
   text-align: center;
+  transition: all 0.4s ease-in-out;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -198,11 +206,12 @@
 
 .contact-form {
   font-family: var(--copy-font);
+  height: 100%;
 }
 
 .socials i {
   color: var(--main-accent);
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0 2rem;
   transition: all 0.4s ease-in-out;
 }
@@ -248,4 +257,11 @@ footer i {
 
 footer i:hover {
   color: var(--main-accent);
+}
+
+@media (min-width: 992px) {
+  .right-column img {
+    height: 600px;
+    width: auto;
+  }
 }

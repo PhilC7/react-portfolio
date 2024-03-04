@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Footer';
 
-function Home() {
+function Home(props) {
   return (
     <>
     <section className="hero-section my-5 h-100">
@@ -12,7 +12,6 @@ function Home() {
             <div className="left-column d-flex flex-column align-items-center h-100">
               <h1>I'm <span>Phil</span></h1>
               <p>Frontend Developer <span>|</span> Designer</p>
-              <a href="#" target='blank'><button type="button" className="btn mt-2">Say Hi!</button></a>
             </div>
           </div>
           <div className="col-md-6">
