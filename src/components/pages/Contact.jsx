@@ -20,7 +20,7 @@ function Contact() {
             <div className="col-6 socials mx-auto d-flex justify-content-around">
             <a href="https://www.linkedin.com/in/philjcooper/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/PhilC7" target="_blank"><i className="fa-brands fa-square-github"></i></a>
-            <a href="public/phil-cooper-cv.pdf" target="_blank" className="icon-link"><i className="fa-solid fa-file"></i><span className="overlay-text">CV</span></a>
+            <a href="dist/phil-cooper-cv.pdf" target="_blank" className="icon-link"><i className="fa-solid fa-file"></i><span className="overlay-text">CV</span></a>
             </div>
       </div>
 
