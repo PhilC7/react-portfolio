@@ -21,7 +21,7 @@ function Contact() {
             <a href="https://www.linkedin.com/in/philjcooper/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/PhilC7" target="_blank"><i className="fa-brands fa-square-github"></i></a>
             <a
-              href="src/assets/phil-cooper-cv.pdf"
+              href="/images/phil-cooper-cv.pdf"
               download="phil-cooper-cv.pdf"
               className="icon-link">
               <i className="fa-solid fa-file"></i><span className="overlay-text">CV</span>
